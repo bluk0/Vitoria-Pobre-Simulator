@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color:cornsilk;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pobre Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>   
+        function generateWord(){
+            min = 1; max = 30;
+            let pobreTranslate = Math.random() * (max - min) + min;
+            pobreTranslate = Math.round(pobreTranslate);
+            switch(pobreTranslate){
+                case 1: pobreTranslate = "pobre";
+                break;
+                case 2: pobreTranslate = "poor";
+                break;
+                case 3: pobreTranslate = "pauvre";
+                break;
+                case 4: pobreTranslate = "فقير";
+                break;
+                case 5: pobreTranslate = "ဆင်းရဲ";
+                break;
+                case 6: pobreTranslate = "jadan";
+                break;
+                case 7: pobreTranslate = "较差的";
+                break;
+                case 8: pobreTranslate = "가난한";
+                break;
+                case 9: pobreTranslate = "fattige";
+                break;
+                case 10: pobreTranslate = "chudobný";
+                break;
+                case 11: pobreTranslate = "mahirap";
+                break;
+                case 12: pobreTranslate = "huono";
+                break;
+                case 13: pobreTranslate = "Φτωχός";
+                break;
+                case 14: pobreTranslate = "ilihune";
+                break;
+                case 15: pobreTranslate = "עני";
+                break;
+                case 16: pobreTranslate = "गरीब";
+                break;
+                case 17: pobreTranslate = "arm";
+                break;
+                case 18: pobreTranslate = "miskin";
+                break;
+                case 19: pobreTranslate = "bocht";
+                break;
+                case 20: pobreTranslate = "fátækur";
+                break;
+                case 21: pobreTranslate = "povero";
+                break;
+                case 22: pobreTranslate = "貧しい";
+                break;
+                case 23: pobreTranslate = "pauperis";
+                break;
+                case 24: pobreTranslate = "vargšas";
+                break;
+                case 25: pobreTranslate = "ядуу";
+                break;
+                case 26: pobreTranslate = "गरिब";
+                break;
+                case 27: pobreTranslate = "słaby";
+                break;
+                case 28: pobreTranslate = "sărac";
+                break;
+                case 29: pobreTranslate = "бедный";
+                break;
+                case 30: pobreTranslate = "јадан";
+                break;
+                case 31: pobreTranslate = "fattig";
+                break;
+                case 32: pobreTranslate = "ยากจน";
+                break;
+                case 33: pobreTranslate = "yoksul";
+                break;
+                case 34: pobreTranslate = "бідний";
+                break;
+                case 35: pobreTranslate = "nghèo";
+                break;
+            };
+            document.getElementById("t").innerHTML = "Vitoria é " + pobreTranslate;
+            console.log(pobreTranslate);
+        }
+    </script>
+
+    <h1 id="title" class="title "> Vitoria Pobre Simulator</h1>
+    <h2 id="subtitle" class="subtitle">Mais de 30 línguas!</h2>
+
+    <br>
+
+    <h1 id="t" style="font-size: 50px;"> Vitoria é [...] </h1>
+    <button onclick="generateWord()" style="background-color:lightslategrey; color:black;"> <h1>pobre</h1> </button>
+
+</body>
+</html>
+    
