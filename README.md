@@ -1,2 +1,2 @@
-# Vitoria-Pobre-Simulator
-:) (low effort)
+# Vitoria-Pobre-Simulator [Low Effort]
+:)
