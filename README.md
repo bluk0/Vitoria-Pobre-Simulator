@@ -1,2 +1,2 @@
-# Vitoria-Pobre-Simulator [Low Effort]
-:)
+# Vitoria-Pobre-Simulator 
+[Low Effort] | Para: Vitorinha :)
